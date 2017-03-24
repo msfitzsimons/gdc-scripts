@@ -1,2 +1,2 @@
-+# gdc-scripts
- +Scripts to interface with the GDC API
+# gdc-scripts
+Scripts to interface with the GDC API
