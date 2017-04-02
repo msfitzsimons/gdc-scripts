@@ -1,4 +1,4 @@
-# Function to get read group name for SRA RNA-Seq data
+# Script to get read group name for SRA RNA-Seq data given a list of SRA Accession IDs
 while IFS='' read -r line || [[ -n "$line" ]]; do
     fastq-dump -X 1 -Z $line | head -n 1
     rm $line.sra.cache 
