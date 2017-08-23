@@ -1,4 +1,4 @@
-
+#Script to check whether the cases per project returned from the API matches a reference list
 import requests
 import json
 r = requests.get("https://api.gdc.cancer.gov/v0/legacy/cases?facets=project.project_id&fields=project.project_id,&from=1&size=1&sort=case_id:asc");
